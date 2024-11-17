@@ -2,7 +2,7 @@
 
 This repository contains code to build the transformer model architecture from scratch in PyTorch. The Transformer model, introduced in the paper “Attention is All You Need,” is a deep learning architecture designed for sequence-to-sequence tasks, such as machine translation and text summarization. It is based on self-attention mechanisms and has become the foundation for many state-of-the-art natural language processing models, like GPT and BERT. The transformer architecture is shown in the figure below:
 
-![Transformer Model Architecture]()
+![Transformer Model Architecture](https://github.com/rohitmurali8/Transformers_from_Scratch/blob/master/Transformer.png)
 
 The transformer architecture is essentially an Encoder-Decoder based architecture. One of the most important components present inside the encoder and decoder of the Transformer is the Multi-Head Attention module (MHA). Before we talk about Multi-Head Attention, we start with Self Attention which provides a measure of how words in a sentence are related to each other i.e. it provides a measure of similarity on how every word/token in a sentence is related to a Query. Query basically represents what we are looking for in a sequence, whereas Keys and Values are related to what each word/token in a sentence can offer. The key, query and value vectors for calculating the attention weights are obtained by transforming the input to the model into these vectors. Usually in self attention, there is only one query space that is shared across the input sequence and each token has one query.
 
@@ -10,7 +10,7 @@ Multi-Head attention module is a variation of the attention mechanism which allo
 
 The figure below shows how the Multi-Headed Attention architecture looks like:
 
-![Multi-Headed Attention Architecture]()
+![Multi-Headed Attention Architecture](https://github.com/rohitmurali8/Transformers_from_Scratch/blob/master/MHA.png)
 
 The implmentation of the transformer model in this repository is done by writing and stacking the following major components:
 - Masked/Non-Masked Multi-Head Attention module 
