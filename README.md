@@ -1,4 +1,4 @@
-# Transformers_from_Scratch for Sequence-to-Sequence modelling
+# Transformers from Scratch for Sequence-to-Sequence modelling
 
 This repository contains code to build the transformer model architecture from scratch in PyTorch. The Transformer model, introduced in the paper “Attention is All You Need,” is a deep learning architecture designed for sequence-to-sequence tasks, such as machine translation and text summarization. It is based on self-attention mechanisms and has become the foundation for many state-of-the-art natural language processing models, like GPT and BERT. The transformer architecture is shown in the figure below:
 
